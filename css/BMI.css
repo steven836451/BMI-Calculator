@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.banner{
+    background-color: #424242;
+    width: 100%;
+    height: 300px;
+    font-size: 18px;
+    color: #FFD366;
+
+}
+.wrap{
+    display: flex;
+    width: 671px;
+    align-items: center;
+    margin: auto;
+    padding: 46px;
+}
+.wrap div{
+    margin: 20px;
+}
+.banner .item label{
+    margin-bottom: 10px;
+}
+.banner .item input{
+    background: rgba(255,255,255,0.18);
+    border: 2px solid #FFD366;
+    border-radius: 10px;
+    font-size: 24px;
+    padding: 5px;
+    margin-bottom: 20px;
+    color: antiquewhite
+}
+input:focus{
+    outline: none;
+}
+.banner .resultBtn{
+    background: #FFD366;
+    font-size: 24px;
+    color: #424242;
+    padding: 48px 28px;
+    border-radius: 50%;
+    font-family: "Microsoft JhengHei";
+    border:none;
+    cursor: pointer;
+    font-weight: bold;
+}
+/* --------------------------------------- */
+.btn{
+    display: flex;
+}
+.changeBtn{
+    position: relative;
+    border: 6px solid;
+    border-radius: 50%;
+    text-align:center;
+    display:inline-block;
+    width: 116px;
+    height: 116px;
+    
+}
+.changeBtn .BMI_value{
+    display: block;
+    font-size: 32px;
+    padding-top: 35px;
+}
+.changeBtn .BMI{
+    display: block;
+    font-size: 14px;
+}
+.changeBtn .refreshBtn{
+    border: 3px solid #424242;
+    border-radius:  50%;
+    position: absolute;
+    left: 85px;
+    top: 80px;
+    width: 30px;
+    height: 30px;
+}
+.refreshBtn:hover{
+    box-shadow: 0 0 5px 2px #FFFFFF inset;
+}
+.changeBtn img{
+    margin: 5px 8px;
+}
+.btn .judge{
+    width: 128px;
+    display: inline-block;
+    font-size: 32px;
+    margin: auto;
+}
+/* -------------------------------------- */
+.banner .resultBtn:hover{
+    box-shadow: 0 1px 6px 3px rgba(255,196,50,0.64);
+}
+.resultBtn:active{
+    background-color: #DEA821;;
+}
+.result{
+    background-color: rgba(240, 232, 232, 0.897);
+    width: 100%;
+}
+.result .list{
+    max-width: 900px;
+    margin: auto;
+}
+.result .list li{
+    background-color: #fff;
+    margin-bottom:10px;
+}
+.result td{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #4A4A4A;
+    padding: 20px;
+    width: 150px;
+}
+.result span{
+    font-size: 12px;
+    color: #424242;
+    padding: 5px;
+}
+.result h2{
+    font-size: 24px;
+    padding: 36px;
+    text-align: center;
+}
+.result a{
+    text-decoration: none;
+    color:purple;
+}
+.result p{
+    text-align: center;
+    color: purple;
+    cursor: pointer;
+    width: 100px;
+    margin: auto;
+    padding-bottom: 10px;
+}
+.result p:hover{
+    text-decoration: underline;    
+}
+.result a:hover{
+    text-decoration: underline;
+}
+.footer{
+    background: #FFD366;
+    width: 100%;
+    text-align: center;
+    /* position: fixed;
+    bottom: 0; */
+}
+.judgeColor{
+    width: 7px;
+    height: 68px;
+    float: left;
+}
+/* 利用設置不同ID，讓顏色渲染至不同judge */
+#lv1{
+    background: #31BAF9;
+    box-shadow: 2px 0 3px 0 rgba(49,186,249,0.29);
+}
+#lv2{
+    background: #86D73F;
+    box-shadow: 2px 0 3px 0 rgba(134,215,63,0.29);
+}
+#lv3{
+    background: #FF982D;
+    box-shadow: 2px 0 3px 0 rgba(255,152,45,0.29);
+}
+#lv4{
+    background: #FF6C03;
+    box-shadow: 2px 0 3px 0 rgba(255,108,3,0.29);
+}
+#lv5{
+    background: #FF6C03;
+    box-shadow: 2px 0 3px 0 rgba(255,108,3,0.29);
+}
+#lv6{
+    background: #FF1200;
+    box-shadow: 2px 0 3px 0 rgba(255,18,0,0.29);
+}
